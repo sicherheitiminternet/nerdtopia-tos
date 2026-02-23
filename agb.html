@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discord Server - AGB</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0f;
+  --primary: #1e90ff;
+  --secondary: #11121a;
+  --text: #e0e0e0;
+  --accent: #1e90ffcc;
+  --font: 'Inter', sans-serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--font); background: var(--bg); color: var(--text); min-height:100vh; display:flex; flex-direction:column; }
+
+header {
+  position: fixed; top:0; left:0; width:100%; background: var(--secondary);
+  display:flex; justify-content:space-between; align-items:center;
+  padding:1.5rem 4rem; border-bottom:1px solid #222; z-index:1000;
+}
+header h1 { color: var(--primary); font-size:2.2rem; font-weight:700; }
+nav a {
+  color: var(--text); text-decoration:none; margin-left:2rem; font-weight:600; font-size:1.1rem; position:relative;
+}
+nav a::after {
+  content:''; position:absolute; width:0%; height:3px; background:var(--primary); left:0; bottom:-5px; transition:0.3s;
+}
+nav a:hover::after { width:100%; }
+
+main {
+  flex:1;
+  padding:140px 4rem 4rem 4rem;
+  max-width:1000px; margin:0 auto;
+}
+h1 { font-size:3rem; color:var(--primary); margin-bottom:1rem; }
+h2 { font-size:2rem; color:var(--primary); margin-top:2rem; margin-bottom:0.75rem; }
+p { font-size:1.1rem; line-height:1.8; margin-bottom:1rem; }
+ul { margin-left:1.5rem; margin-bottom:1rem; }
+li { margin-bottom:0.5rem; }
+
+footer {
+  text-align:center; padding:3rem; background: var(--secondary); border-top:1px solid #222; font-size:1rem; color:#888;
+}
+
+a { color: var(--primary); text-decoration:underline; }
+a:hover { color: var(--accent); }
+
+@media(max-width:768px){
+  header { padding:1rem 2rem; }
+  nav a { margin-left:1rem; font-size:1rem; }
+  h1 { font-size:2.5rem; }
+  h2 { font-size:1.7rem; }
+  p, li { font-size:1rem; }
+  main { padding:120px 2rem 2rem 2rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AGBS Nerdtopia Discord Server</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="agb.html">AGBs</a>
+    <a href="datenschutz.html">Datenschutzerklärung</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Allgemeine Geschäftsbedingungen (AGB) - Nerdtopia Discord Server</h2>
+  <br>
+  <h3><strong>Stand: 27. Januar 2026</strong></h3>
+  <br><br>
+  <h3><strong>Tritt in Kraft am: 28. Januar 2026</strong></h3>
+  <br><br>
+  <h3><strong>Tritt in Kraft um: 11:35 Uhr</strong></h3>
+  
+  <h2>1. Geltungsbereich</h2>
+  <p>Diese AGB gelten für alle Mitglieder des Discord Servers. Mit der Nutzung des Servers erklärt jedes Mitglied automatisch seine Zustimmung zu diesen AGB.</p>
+
+  <h2>2. Definitionen</h2>
+  <ul>
+    <li><strong>Owner / Betreiber:</strong> Die Person, die den Server verwaltet und moderiert.</li>
+    <li><strong>Mitglieder:</strong> Alle Nutzer, die dem Discord Server beitreten.</li>
+    <li><strong>Inhalte:</strong> Alle Texte, Nachrichten, Bilder, Dateien und sonstige Inhalte, die auf dem Server geteilt werden.</li>
+  </ul>
+
+  <h2>3. Pflichten der Mitglieder</h2>
+  <ul>
+    <li><a href="https://discord.com/terms" target="_blank">Einhalten der Discord ToS.</a></li>
+    <li>Respektvoller Umgang miteinander</li>
+    <li>Keine Belästigung, Diskriminierung oder Mobbing</li>
+    <li>Keine illegalen oder NSFW-Inhalte posten</li>
+    <li>Keine privaten Informationen ohne Zustimmung teilen (Doxing verboten)</li>
+    <li>Keine Störung des Serverbetriebs (Spam, Flood, Missbrauch von Bots etc.)</li>
+  </ul>
+
+  <h2>4. Rechte und Pflichten des Owners</h2>
+  <ul>
+    <li>Der Owner ist verantwortlich für den regelkonformen Betrieb des Servers nach den Discord ToS.</li>
+    <li>Der Owner kann Kanäle, Rollen, Bots und Inhalte verwalten und Mitglieder verwarnen, stummschalten oder bannen.</li>
+    <li>Der Owner entscheidet nach eigenem Ermessen, um die Sicherheit, Funktionsfähigkeit und den ordnungsgemäßen Ablauf des Servers zu gewährleisten.</li>
+  </ul>
+
+  <h2>5. Datenschutz</h2>
+  <p>Personenbezogene Daten werden nur zur Verwaltung und Moderation des Servers verwendet. Mitglieder dürfen keine privaten Informationen anderer Nutzer ohne ausdrückliche Zustimmung veröffentlichen. Details zum Datenschutz sind in der <a href="datenschutz.html">Datenschutzerklärung</a> enthalten.</p>
+
+  <h2>6. Urheberrechte</h2>
+  <p>Alle Inhalte auf dem Server unterliegen dem Urheberrecht. Inhalte dürfen nur mit ausdrücklicher Genehmigung des Rechteinhabers geteilt oder weiterverwendet werden.</p>
+
+  <h2>7. Sperrung und Ausschluss</h2>
+  <p>Bei Verstößen gegen die AGB oder geltendes Recht kann der Owner Mitglieder temporär oder dauerhaft vom Server ausschließen. Entscheidungen des Owners erfolgen nach eigenem Ermessen.</p>
+
+  <h2>8. Änderungen der AGB</h2>
+  <p>Der Owner kann diese AGB jederzeit ändern. Die fortgesetzte Nutzung des Servers nach Änderungen gilt als Zustimmung zu den neuen AGB.</p>
+	
+  <h2>9. Zustimmung</h2>
+  <p>Mit der Nutzung des Discord Servers bestätigt jedes Mitglied, dass es diese AGB gelesen, verstanden und akzeptiert hat.</p>
+</main>
+
+<footer>
+  &copy; 2026 Nerdtopia Discord Server. Alle Rechte vorbehalten.
+</footer>
+
+</body>
+</html>

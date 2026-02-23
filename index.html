@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nerdtopia Discord - Rechtliches</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0f;
+  --primary: #1e90ff;
+  --secondary: #11121a;
+  --text: #e0e0e0;
+  --accent: #1e90ffcc;
+  --font: 'Inter', sans-serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--font); background: var(--bg); color: var(--text); min-height:100vh; }
+
+header {
+  position: fixed; top:0; left:0; width:100%; background:var(--secondary);
+  display:flex; justify-content:space-between; align-items:center; padding:1.5rem 4rem;
+  border-bottom:1px solid #222; z-index:1000;
+}
+header h1 { color: var(--primary); font-size:2.2rem; font-weight:700; }
+nav a {
+  color: var(--text); text-decoration:none; margin-left:2rem; font-weight:600; font-size:1.1rem; position:relative;
+}
+nav a::after {
+  content:''; position:absolute; width:0%; height:3px; background:var(--primary); left:0; bottom:-5px; transition:0.3s;
+}
+nav a:hover::after { width:100%; }
+
+main {
+  padding-top:120px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:100vh;
+}
+
+h2 { font-size:3rem; color:var(--primary); margin-bottom:1rem; }
+p { font-size:1.2rem; max-width:700px; line-height:1.8; }
+
+footer { text-align:center; padding:3rem; background:var(--secondary); border-top:1px solid #222; font-size:1rem; color:#888; }
+
+@media(max-width:768px){
+  header{padding:1rem 2rem;}
+  nav a{margin-left:1rem; font-size:1rem;}
+  h2{font-size:2.5rem;}
+  p{font-size:1.1rem;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Nerdtopia Discord</h1>
+  <nav>
+    <a href="agb.html">AGB</a>
+    <a href="datenschutz.html">Datenschutzerklärung</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Rechtliches</h2>
+  <p>Willkommen im rechtlichen Bereich des Nerdtopia Discord Servers. Hier findest du alle offiziellen Dokumente zu AGB und Datenschutz.  
+  Bitte lies sie aufmerksam durch.</p>
+</main>
+
+<footer>
+  &copy; 2026 Nerdtopia Discord Server. Alle Rechte vorbehalten.
+</footer>
+
+</body>
+</html>
