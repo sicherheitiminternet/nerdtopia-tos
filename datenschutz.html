@@ -2,211 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Discord Server - Datenschutzerklärung</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-/* Allgemein */
-* { margin:0; padding:0; box-sizing:border-box; }
-body { 
-  font-family: var(--font); 
-  background: var(--bg); 
-  color: var(--text); 
-  min-height:100vh; 
-  display:flex; 
-  flex-direction:column; 
-}
-
-/* Header */
-header {
-  position: fixed; 
-  top:0; 
-  left:0; 
-  width:100%; 
-  background: var(--secondary);
-  display:flex; 
-  justify-content:space-between; 
-  align-items:center;
-  padding:1.5rem 4rem; 
-  border-bottom:1px solid #222; 
-  z-index:1000;
-}
-header h1, header h3 {
-  color: var(--primary); 
-  font-size:2.2rem; 
-  font-weight:700; 
-  text-align:center; /* zentriert Header-Überschrift */
-  width:100%; /* Header h1/h3 nimmt gesamte Breite */
-}
-
-/* Navigation */
-nav a {
-  color: var(--text); 
-  text-decoration:none; 
-  margin-left:2rem; 
-  font-weight:600; 
-  font-size:1.1rem; 
-  position:relative;
-}
-nav a::after {
-  content:''; 
-  position:absolute; 
-  width:0%; 
-  height:3px; 
-  background:var(--primary); 
-  left:0; 
-  bottom:-5px; 
-  transition:0.3s;
-}
-nav a:hover::after { width:100%; }
-
-/* Main Content */
-main {
-  flex:1;
-  padding:140px 4rem 4rem 4rem;
-  max-width:1000px; 
-  margin:0 auto;
-  text-align:left; /* Standard Text linksbündig */
-}
-
-/* Überschriften */
-h1 {
-  font-size:3rem; 
-  color:var(--primary); 
-  margin-bottom:1rem; 
-  text-align:center; /* zentriert h1 im main */
-  font-weight:700;
-}
-h2 {
-  font-size:2rem; 
-  color:var(--primary); 
-  margin-top:2rem; 
-  margin-bottom:0.75rem;
-  text-align:left; /* optional, kann auch center sein */
-}
-h3 {
-  font-size:1.5rem;
-  color:var(--primary);
-  margin-bottom:0.5rem;
-  text-align:center; /* zentriert h3 für Stand/Tritt-in-Kraft */
-}
-
-/* Paragraphen & Listen */
-p { font-size:1.1rem; line-height:1.8; margin-bottom:1rem; }
-ul { margin-left:1.5rem; margin-bottom:1rem; }
-li { margin-bottom:0.5rem; }
-
-/* Footer */
-footer {
-  text-align:center; 
-  padding:3rem; 
-  background: var(--secondary); 
-  border-top:1px solid #222; 
-  font-size:1rem; 
-  color:#888;
-}
-
-/* Links */
-a { color: var(--primary); text-decoration:underline; }
-a:hover { color: var(--accent); }
-
-/* Responsive */
-@media(max-width:768px){
-  header { padding:1rem 2rem; }
-  nav a { margin-left:1rem; font-size:1rem; }
-  h1 { font-size:2.5rem; }
-  h2 { font-size:1.7rem; }
-  h3 { font-size:1.3rem; }
-  p, li { font-size:1rem; }
-  main { padding:120px 2rem 2rem 2rem; }
-}
-</style>
-</head>
-<body>
-
-<header>
-  <h3>Datenschutzerklärung Nerdtopia Discord Server</h3>
-</header>
-
-<main>
-  <h1>Datenschutzerklärung - Nerdtopia Discord Server</h1>
-  <p></p>
-  <h3><strong>Stand: 27. Januar 2026</strong></h3>
-  <p></p>
-  <h3><strong>Tritt in Kraft am: 10. Februar 2026</strong></h3>
-
-  <h2>1. Verantwortlicher</h2>
-  <p>Verantwortlich für die Datenverarbeitung auf diesem Discord Server ist der Owner des Servers. Kontaktdaten des Owners sind über eine private Nachricht an ihn erhältlich.</p>
-
-  <h2>2. Erhobene Daten</h2>
-  <p>Auf dem Server können folgende Daten erfasst werden:</p>
-  <ul>
-    <li>Discord-Name und Tag</li>
-    <li>Benutzer-ID</li>
-    <li>Nachrichten, die Mitglieder im Server posten</li>
-    <li>Voice-Channel-Nutzungsinformationen (z. B. Teilnahmezeiten)</li>
-    <li>Server-Logs zur Moderation (Verstöße gegen Regeln, Verwarnungen)</li>
-  </ul>
-
-  <h2>3. Zweck der Verarbeitung</h2>
-  <p>Die Daten werden ausschließlich zu folgenden Zwecken genutzt:</p>
-  <ul>
-    <li>Moderation und Verwaltung des Servers</li>
-    <li>Durchsetzung der Server-Regeln und AGB</li>
-    <li>Sicherheit und Schutz der Mitglieder</li>
-    <li>Nachvollziehbarkeit bei Verstößen oder Konflikten</li>
-  </ul>
-
-  <h2>4. Weitergabe von Daten</h2>
-  <p>Personenbezogene Daten werden nicht an Dritte weitergegeben, außer wenn dies zur Einhaltung der Discord ToS, gesetzlicher Pflichten oder zur Wahrung berechtigter Interessen erforderlich ist.</p>
-
-  <h2>5. Speicherdauer</h2>
-  <p>Daten werden nur so lange gespeichert, wie es für die Moderation, Regelüberwachung oder gesetzliche Aufbewahrungspflichten notwendig ist. Nach Wegfall des Zwecks werden die Daten gelöscht.</p>
-
-  <h2>6. Rechte der Mitglieder</h2>
-  <ul>
-    <li>Auskunft: Mitglieder können jederzeit Auskunft über ihre gespeicherten Daten verlangen.</li>
-    <li>Berichtigung: Mitglieder können die Korrektur falscher Daten verlangen.</li>
-    <li>Löschung: Mitglieder können die Löschung ihrer Daten beantragen, soweit keine gesetzlichen Aufbewahrungspflichten bestehen.</li>
-    <li>Beschwerderecht: Mitglieder (oder deren gesetzliche Vertreter bei Minderjährigen) können sich bei der zuständigen Datenschutzbehörde beschweren.</li>
-  </ul>
-
-  <h2>7. Sicherheit</h2>
-  <p>Der Owner ergreift angemessene Maßnahmen, um die Daten der Mitglieder zu schützen, z. B. sichere Speicherung und Zugriffsbeschränkungen.</p>
-  
-  <h2>8. Nutzung der Discord-Plattform</h2>
-  <p>Dieser Server läuft auf der Discord-Plattform. Bitte beachte, dass zusätzlich zur vorliegenden Datenschutzerklärung auch die <a href="https://discord.com/privacy" target="_blank">Datenschutzerklärung von Discord</a> gilt.  
-  Durch die Nutzung des Servers erklärst du dich ebenfalls mit der Verarbeitung deiner Daten durch Discord einverstanden. Die Discord-Datenschutzerklärung regelt insbesondere:</p>
-  <ul>
-    <li>Erhebung und Speicherung von Accountdaten (Name, Benutzer-ID, Profilbild, etc.)</li>
-    <li>Verarbeitung von Nachrichten, Dateien und Voice-Daten</li>
-    <li>Cookies, Tracking und Analysen durch Discord</li>
-    <li>Deine Rechte gegenüber Discord als Plattformbetreiber</li>
- </ul>	
-  <h2>9. Änderungen der Datenschutzerklärung</h2>
-  <p>Die Datenschutzerklärung kann jederzeit aktualisiert werden. Die aktuelle Version wird auf GitHub bzw. im Server veröffentlicht. Mit fortgesetzter Nutzung des Servers nach Änderungen gilt die neue Datenschutzerklärung als akzeptiert.</p>
-  
-  <h2>10. Kontakt</h2>
-  <p>Für Fragen zum Datenschutz können sich Mitglieder jederzeit direkt per DM an den Owner wenden.</p>
-  
-  <h2>11. Zustimmung</h2>
-  <p>Mit der Nutzung des Discord Servers bestätigt jedes Mitglied, dass es diese Datenschutzerklärung gelesen, verstanden und akzeptiert hat.</p>
-</main>
-
-<footer>
-  &copy; 2026 Nerdtopia Discord Server. Alle Rechte vorbehalten.
-</footer>
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Discord Server - Datenschutzerklärung</title>
+<title>Discord Server - AGB</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -218,127 +14,87 @@ a:hover { color: var(--accent); }
   --font: 'Inter', sans-serif;
 }
 
-/* Reset */
 * { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--font); background: var(--bg); color: var(--text); min-height:100vh; display:flex; flex-direction:column; }
 
-/* Body */
-body { 
-  font-family: var(--font); 
-  background: var(--bg); 
-  color: var(--text); 
-  min-height:100vh; 
-  display:flex; 
-  flex-direction:column; 
-}
-
-/* Header */
 header {
-  position: fixed; 
-  top:0; 
-  left:0; 
-  width:100%; 
-  background: var(--secondary);
-  padding:1.5rem 2rem; 
-  border-bottom:1px solid #222; 
-  text-align:center;
-  z-index:1000;
+  position: fixed; top:0; left:0; width:100%; background: var(--secondary);
+  display:flex; justify-content:space-between; align-items:center;
+  padding:1.5rem 4rem; border-bottom:1px solid #222; z-index:1000;
 }
-header h1 {
-  color: var(--primary);
-  font-size:2.5rem;
-  font-weight:700;
+header h1 { color: var(--primary); font-size:2.2rem; font-weight:700; }
+nav a {
+  color: var(--text); text-decoration:none; margin-left:2rem; font-weight:600; font-size:1.1rem; position:relative;
 }
+nav a::after {
+  content:''; position:absolute; width:0%; height:3px; background:var(--primary); left:0; bottom:-5px; transition:0.3s;
+}
+nav a:hover::after { width:100%; }
 
-/* Main Content */
 main {
   flex:1;
-  padding:180px 2rem 4rem 2rem;
-  max-width:1000px;
-  margin:0 auto;
+  padding:140px 4rem 4rem 4rem;
+  max-width:1000px; margin:0 auto;
 }
-
-/* Überschriften */
-h1 { 
-  font-size:3rem; 
-  color: var(--primary); 
-  text-align:center;
-  margin-bottom:1rem;
-}
-h2 { 
-  font-size:2rem; 
-  color: var(--primary); 
-  margin-top:2rem; 
-  margin-bottom:0.75rem; 
-}
-h3 { 
-  font-size:1.5rem; 
-  color: var(--primary); 
-  margin-bottom:0.5rem;
-  text-align:center;
-}
-
-/* Text & Listen */
+h1 { font-size:3rem; color:var(--primary); margin-bottom:1rem; }
+h2 { font-size:2rem; color:var(--primary); margin-top:2rem; margin-bottom:0.75rem; }
+h3 { font-size:1.3rem; color:var(--primary); margin-top:1rem; margin-bottom:0.5rem; }
 p { font-size:1.1rem; line-height:1.8; margin-bottom:1rem; }
 ul { margin-left:1.5rem; margin-bottom:1rem; }
 li { margin-bottom:0.5rem; }
 
-/* Footer */
 footer {
-  text-align:center; 
-  padding:3rem; 
-  background: var(--secondary); 
-  border-top:1px solid #222; 
-  font-size:1rem; 
-  color:#888;
+  text-align:center; padding:3rem; background: var(--secondary); border-top:1px solid #222; font-size:1rem; color:#888;
 }
 
-/* Links */
 a { color: var(--primary); text-decoration:underline; }
 a:hover { color: var(--accent); }
-
-/* Responsive */
-@media(max-width:768px){
-  h1 { font-size:2.2rem; }
-  h2 { font-size:1.7rem; }
-  h3 { font-size:1.3rem; }
-  p, li { font-size:1rem; }
-  main { padding:160px 1rem 2rem 1rem; }
-}
 </style>
 </head>
 <body>
 
 <header>
   <h1>Datenschutzerklärung Nerdtopia Discord Server</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="agb.html">AGBs</a>
+    <a href="datenschutz.html">Datenschutzerklärung</a>
+  </nav>
 </header>
 
 <main>
-  <h1>Datenschutzerklärung - Nerdtopia Discord Server</h1>
+  <h1>Datenschutzerklärung</h1>
   <p></p>
-  <h3><strong>Stand: 27. Januar 2026</strong></h3>
+  <h3><strong>Stand: 27. Februar 2026</strong></h3>
   <p></p>
-  <h3><strong>Tritt in Kraft am: 10. Februar 2026</strong></h3>
+  <h3><strong>Tritt in Kraft am: 27. Februar 2026</strong></h3>
+  <p></p>
+  <h3><strong>Tritt in Kraft um: 18:52 Uhr</strong></h3>
 
   <h2>1. Verantwortlicher</h2>
   <p>Verantwortlich für die Datenverarbeitung auf diesem Discord Server ist der Owner des Servers. Kontaktdaten des Owners sind über eine private Nachricht an ihn erhältlich.</p>
 
   <h2>2. Erhobene Daten</h2>
-  <p>Auf dem Server können folgende Daten erfasst werden:</p>
+  <p>Auf dem Server werden Daten durch den Inhaber, das Moderations-Team sowie durch automatisierte Systeme (Bots) erfasst:</p>
   <ul>
-    <li>Discord-Name und Tag</li>
-    <li>Benutzer-ID</li>
-    <li>Nachrichten, die Mitglieder im Server posten</li>
-    <li>Voice-Channel-Nutzungsinformationen (z. B. Teilnahmezeiten)</li>
-    <li>Server-Logs zur Moderation (Verstöße gegen Regeln, Verwarnungen)</li>
+    <li><strong>Identifikationsdaten:</strong> Discord-Benutzername, Anzeigename, User-ID sowie Profilbilder.</li>
+    <li><strong>Inhaltsdaten:</strong> Alle in Textkanälen verfassten Nachrichten, hochgeladene Dateien, Bilder und Links.</li>
+    <li><strong>Metadaten:</strong> Zeitstempel von Nachrichten, Bearbeitungsverlauf von Nachrichten sowie Status-Informationen.</li>
+    <li><strong>Voice-Daten:</strong> Protokollierung von Beitritten und Verlassen von Voice-Channels sowie die Dauer der Teilnahme (keine Aufnahme von Audio-Inhalten ohne gesonderte Ankündigung).</li>
+    <li><strong>Moderations-Daten (Audit-Logs):</strong> Protokollierung von Server-Beitritten, Rollenzuweisungen, Kanaländerungen sowie Sanktionen (Kicks, Banns, Timeouts, Warnungen).</li>
+    <li><strong>Bot-spezifische Daten:</strong> Interaktionen mit Bots, Level-Systeme, XP-Daten, Ticket-Inhalte und Log-Files, die durch Drittanbieter-Bots generiert werden.</li>
+    <li><strong>Technische Daten:</strong> Informationen über verknüpfte Konten (sofern öffentlich im Profil sichtbar) und genutzte Endgeräte/Plattformen im Rahmen der Discord-Schnittstelle.</li>
   </ul>
 
   <h2>3. Zweck der Verarbeitung</h2>
-  <p>Die Daten werden ausschließlich zu folgenden Zwecken genutzt:</p>
+  <p>Die Erhebung und Verarbeitung der Daten erfolgt durch den Inhaber und das Moderations-Team zu folgenden Zwecken:</p>
   <ul>
-    <li>Moderation und Verwaltung des Servers</li>
-    <li>Durchsetzung der Server-Regeln und AGB</li>
-    <li>Sicherheit und Schutz der Mitglieder</li>
-    <li>Nachvollziehbarkeit bei Verstößen oder Konflikten</li>
+    <li><strong>Server-Management:</strong> Aufrechterhaltung des technischen Betriebs, Verwaltung von Rollen und Zugriffsberechtigungen.</li>
+    <li><strong>Regeldurchsetzung:</strong> Überwachung der Einhaltung der Nerdtopia-AGB sowie der Discord ToS; Identifikation und Sanktionierung von Regelverstössen.</li>
+    <li><strong>Beweissicherung:</strong> Dokumentation von Vorfällen, um bei Konflikten, Beleidigungen oder rechtlichen Auseinandersetzungen eine nachvollziehbare Entscheidungsgrundlage zu haben (Audit-Logs).</li>
+    <li><strong>Sicherheit & Prävention:</strong> Schutz der Mitglieder vor Spam, Scams, Doxing und anderen schädlichen Aktivitäten durch automatisierte Filter und manuelle Prüfungen.</li>
+    <li><strong>Ticket-Support:</strong> Bearbeitung von Nutzeranfragen und Support-Fällen innerhalb des serverinternen Ticket-Systems.</li>
+    <li><strong>Community-Integrität:</strong> Analyse der Aktivität zur Optimierung der Serverstruktur und zur Gewährleistung einer aktiven, regelkonformen Nutzerbasis.</li>
   </ul>
 
   <h2>4. Weitergabe von Daten</h2>
@@ -349,32 +105,36 @@ a:hover { color: var(--accent); }
 
   <h2>6. Rechte der Mitglieder</h2>
   <ul>
-    <li>Auskunft: Mitglieder können jederzeit Auskunft über ihre gespeicherten Daten verlangen.</li>
-    <li>Berichtigung: Mitglieder können die Korrektur falscher Daten verlangen.</li>
-    <li>Löschung: Mitglieder können die Löschung ihrer Daten beantragen, soweit keine gesetzlichen Aufbewahrungspflichten bestehen.</li>
-    <li>Beschwerderecht: Mitglieder (oder deren gesetzliche Vertreter bei Minderjährigen) können sich bei der zuständigen Datenschutzbehörde beschweren.</li>
+    <li>Auskunft über gespeicherte Daten</li>
+    <li>Berichtigung falscher Daten</li>
+    <li>Löschung (sofern keine gesetzlichen Pflichten entgegenstehen)</li>
+    <li>Beschwerderecht bei der zuständigen Datenschutzbehörde</li>
   </ul>
 
   <h2>7. Sicherheit</h2>
-  <p>Der Owner ergreift angemessene Maßnahmen, um die Daten der Mitglieder zu schützen, z. B. sichere Speicherung und Zugriffsbeschränkungen.</p>
+  <p>Der Owner ergreift angemessene Maßnahmen, um die Daten der Mitglieder zu schützen.</p>
   
   <h2>8. Nutzung der Discord-Plattform</h2>
-  <p>Dieser Server läuft auf der Discord-Plattform. Bitte beachte, dass zusätzlich zur vorliegenden Datenschutzerklärung auch die <a href="https://discord.com/privacy" target="_blank">Datenschutzerklärung von Discord</a> gilt.  
-  Durch die Nutzung des Servers erklärst du dich ebenfalls mit der Verarbeitung deiner Daten durch Discord einverstanden. Die Discord-Datenschutzerklärung regelt insbesondere:</p>
+  <p>Dieser Server läuft auf der Discord-Plattform. Zusätzlich gilt die 
+  <strong><a href="https://discord.com/privacy" target="_blank">Datenschutzerklärung von Discord</a>.</strong></p>
+  
+  <h2>9. Änderungen</h2>
+  <p>Die Datenschutzerklärung kann jederzeit aktualisiert werden. Mit fortgesetzter Nutzung gilt sie als akzeptiert.</p>
+
+  <h2>10. Zustimmung und Anerkennung</h2>
+  <p>
+    Mit dem Betreten und der Nutzung des Nerdtopia Discord-Servers bestätigt jedes Mitglied ausdrücklich, dass es die folgenden Bestimmungen vollständig gelesen, verstanden und akzeptiert hat:
+  </p>
   <ul>
-    <li>Erhebung und Speicherung von Accountdaten (Name, Benutzer-ID, Profilbild, etc.)</li>
-    <li>Verarbeitung von Nachrichten, Dateien und Voice-Daten</li>
-    <li>Cookies, Tracking und Analysen durch Discord</li>
-    <li>Deine Rechte gegenüber Discord als Plattformbetreiber</li>
- </ul>	
-  <h2>9. Änderungen der Datenschutzerklärung</h2>
-  <p>Die Datenschutzerklärung kann jederzeit aktualisiert werden. Die aktuelle Version wird auf GitHub bzw. im Server veröffentlicht. Mit fortgesetzter Nutzung des Servers nach Änderungen gilt die neue Datenschutzerklärung als akzeptiert.</p>
-  
-  <h2>10. Kontakt</h2>
-  <p>Für Fragen zum Datenschutz können sich Mitglieder jederzeit direkt per DM an den Owner wenden.</p>
-  
-  <h2>11. Zustimmung</h2>
-  <p>Mit der Nutzung des Discord Servers bestätigt jedes Mitglied, dass es diese Datenschutzerklärung gelesen, verstanden und akzeptiert hat.</p>
+    <li><strong><a href="datenschutz.html">Die Allgemeinen Geschäftsbedingungen (AGB)</a></strong></li>
+    <li><strong><a href="datenschutz.html">Diese Datenschutzerklärung des Servers</a></strong></li>
+    <li>Das im Discord-Kanal veröffentlichte <strong>Regelwerk</strong></li>
+  </ul>
+  <p>
+  <p>
+    Wer mit der Erhebung und Verarbeitung seiner Daten gemäss diesen Bestimmungen nicht einverstanden ist, 
+    muss den Server umgehend verlassen.
+  </p>
 </main>
 
 <footer>

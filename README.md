@@ -25,7 +25,7 @@ Dieses Repository enthält die aktuell gültigen Dokumente, die für alle Mitgli
 ## Nutzung der Webseite
 
 Die Webseite ist vollständig öffentlich und kann direkt über GitHub Pages besucht werden:  
-[https://owner-dev25.github.io/nerdtopia-tos/](https://owner-dev25.github.io/nerdtopia-tos/)
+[https://sicherheitiminternet.github.io/nerdtopia-tos/](https://sicherheitiminternet.github.io/nerdtopia-tos/)
 
 
 
