@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nerdtopia - Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --primary: #1e90ff;
+      --secondary: #11121a;
+      --text: #e0e0e0;
+      --accent: #1e90ffcc;
+      --font: 'Inter', sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body { 
+      font-family: var(--font); 
+      background: var(--bg); 
+      color: var(--text); 
+      min-height: 100vh; 
+      display: flex; 
+      flex-direction: column; 
+    }
+
+    /* Header - Exakt wie in der AGB */
+    header {
+      position: fixed; top: 0; left: 0; width: 100%; 
+      background: var(--secondary);
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.5rem 4rem; border-bottom: 1px solid #222; z-index: 1000;
+    }
+    header h1 { color: var(--primary); font-size: 2.2rem; font-weight: 700; }
+    
+    nav a {
+      color: var(--text); text-decoration: none; margin-left: 2rem; 
+      font-weight: 600; font-size: 1.1rem; position: relative;
+    }
+    nav a::after {
+      content: ''; position: absolute; width: 0%; height: 3px; 
+      background: var(--primary); left: 0; bottom: -5px; transition: 0.3s;
+    }
+    nav a:hover::after { width: 100%; }
+
+    /* Main Content */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 140px 2rem 4rem 2rem;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      text-shadow: 0 0 15px rgba(30, 144, 255, 0.3);
+    }
+
+    p { font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem; }
+
+    /* Animation */
+    .loader {
+      width: 45px;
+      height: 45px;
+      border: 4px solid var(--secondary);
+      border-top: 4px solid var(--primary);
+      border-radius: 50%;
+      margin-bottom: 1.5rem;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+    /* Button */
+    .btn {
+      padding: 0.8rem 1.8rem;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+      font-size: 1.1rem;
+    }
+    .btn:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(30, 144, 255, 0.4); }
+
+    /* Footer - Exakt wie in der AGB */
+    footer {
+      text-align: center; padding: 3rem; background: var(--secondary); 
+      border-top: 1px solid #222; font-size: 1rem; color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nerdtopia</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="agb.html">AGB</a>
+      <a href="datenschutz.html">Datenschutzerklärung</a>
+      <a href="discordserverregeln.html">Discord Server Regeln</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="loader"></div>
+    <h2>Kommt noch...</h2>
+    <p>Diese Sektion befindet sich aktuell noch im Aufbau.</p>
+    <a href="index.html" class="btn">Zurück zum Start</a>
+  </main>
+
+  <footer>
+    &copy; 2026 Nerdtopia Discord Server. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>
