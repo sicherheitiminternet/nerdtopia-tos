@@ -55,28 +55,72 @@ a:hover { color: var(--accent); }
 <body>
 
 <header>
-  <h1>AGBS Nerdtopia Discord Server</h1>
+  <h1>AGB Nerdtopia Discord Server</h1>
   <nav>
     <a href="index.html">Home</a>
     <a href="agb.html">AGB</a>
     <a href="datenschutz.html">Datenschutzerklärung</a>
-    <a href="discordserverregeln.html">Discord Server Regeln</a>
   </nav>
 </header>
 
 <main>
   <h1>Allgemeine Geschäftsbedingungen</h1>
   <p></p>
-  <h3><strong>Stand: 27. Februar 2026</strong></h3>
+  <h3><strong>Stand: 8. März 2026</strong></h3>
   <p></p>
-  <h3><strong>Tritt in Kraft am: 27. Februar 2026</strong></h3>
+  <h3><strong>Tritt in Kraft am: 8. März 2026</strong></h3>
   <p></p>
   <h3><strong>Tritt in Kraft um: 18:52 Uhr</strong></h3>
   
   <h2>1. Geltungsbereich</h2>
   <p>Diese AGB gelten für alle Mitglieder des Discord Servers. Mit der Nutzung des Servers erklärt jedes Mitglied automatisch seine Zustimmung zu diesen AGB.</p>
 
-  <h2>2. Definitionen</h2>
+  <h2>2. Regel-Hierarchie und Bestandteile</h2>
+  <p>Das Regelwerk des Servers setzt sich aus verschiedenen Ebenen zusammen. Im Falle von Widersprüchen gilt folgende Rangfolge (höchste Priorität zuerst):</p>
+
+  <h3>2.1 Allgemeine Geschäftsbedingungen (AGB)</h3>
+  <ul>
+    <li><strong>Geltungsbereich:</strong> Die AGB gelten für alle Mitglieder sowie das Moderations-Team. Sie definieren die rechtliche Grundlage für die Nutzung des Servers.</li>
+    <li><strong>Priorität:</strong> Sie bilden das fundamentale Regelwerk. Der Owner übt auf Basis dieser AGB sein uneingeschränktes Hausrecht aus.</li>
+    <li><strong>Nachrangigkeit:</strong> Bestimmungen der AGB können durch Kategorieregeln (2.5) oder Kanalregeln (2.6) für spezifische Bereiche modifiziert oder außer Kraft gesetzt werden, sofern der Owner dies dort explizit festlegt.</li>
+  </ul>
+
+  <h3>2.2 Datenschutzerklärung</h3>
+  <ul>
+    <li><strong>Geltungsbereich:</strong> Gilt für die gesamte Datenverarbeitung auf dem Server durch Bots und das Team.</li>
+    <li><strong>Priorität:</strong> Regelt verbindlich, welche Daten erhoben werden. Sie steht rechtlich gleichwertig neben den AGB.</li>
+    <li><strong>Nachrangigkeit:</strong> Kann durch spezifische Kanalregeln ergänzt werden (z. B. Hinweis auf Protokollierung in Support-Tickets).</li>
+  </ul>
+
+  <h3>2.3 Rollenrichtlinien (Selfroles)</h3>
+  <ul>
+    <li><strong>Geltungsbereich:</strong> Diese Richtlinien regeln die Vergabe und Nutzung von Rollen, die sich Mitglieder selbst zuweisen können. Sie legen fest, welche Voraussetzungen für bestimmte Rollen erfüllt sein müssen.</li>
+    <li><strong>Priorität:</strong> Sie sind im jeweiligen <strong>Selfrole-Kanal</strong> hinterlegt. Sie definieren verbindlich, wer welche Rollen wählen darf und welche Pflichten mit einer gewählten Rolle verbunden sind.</li>
+    <li><strong>Nachrangigkeit:</strong> Rollenrichtlinien ergänzen die allgemeinen Serverregeln. Besteht ein Widerspruch (z. B. eine gewählte Rolle erlaubt Zugriff auf einen Kanal, dessen Regeln etwas anderes sagen), so haben die spezifischen Kanalregeln des Zielkanals Vorrang.</li>
+  </ul>
+
+  <h3>2.4 Allgemeine Serverregeln</h3>
+  <ul>
+    <li><strong>Geltungsbereich:</strong> Der Standard-Verhaltenskodex für alle Mitglieder auf dem gesamten Server.</li>
+    <li><strong>Priorität:</strong> Regeln das tägliche Miteinander und allgemeine Verbote.</li>
+    <li><strong>Nachrangigkeit:</strong> Treten zurück, sobald eine Kategorie- oder Kanalregel eine abweichende Bestimmung trifft.</li>
+  </ul>
+
+  <h3>2.5 Kategorieregeln</h3>
+  <ul>
+    <li><strong>Geltungsbereich:</strong> Diese Regeln sind im <strong>ersten Kanal</strong> unter einer Kategorie hinterlegt. Sie gelten verbindlich für <strong>jeden einzelnen Kanal</strong> innerhalb dieser gesamten Kategorie.</li>
+    <li><strong>Priorität:</strong> Kategorieregeln haben Vorrang vor den allgemeinen Serverregeln, den AGB und der Datenschutzerklärung für alle Kanäle dieser Kategorie.</li>
+    <li><strong>Nachrangigkeit:</strong> Sind im ersten Kanal der Kategorie keine Regeln definiert, gelten die allgemeinen Serverregeln, AGB und die Datenschutzerklärung.</li>
+  </ul>
+
+  <h3>2.6 Kanalregeln</h3>
+  <ul>
+    <li><strong>Geltungsbereich:</strong> Beziehen sich ausschließlich auf den Kanal, in dessen <strong>Kanalbeschreibung</strong> sie stehen.</li>
+    <li><strong>Priorität:</strong> Höchste Priorität (Lex Specialis). Eine Kanalregel bricht alle darüberliegenden Ebenen (AGB, Datenschutz, Kategorie etc.) für diesen einen Kanal.</li>
+    <li><strong>Subsidiarität:</strong> Ist die Kanalbeschreibung leer, greifen automatisch die nächsthöheren Ebenen (Kategorie -> Serverregeln -> AGB).</li>
+  </ul>
+
+  <h2>3. Definitionen</h2>
   <ul>
     <li><strong>Owner / Inhaber:</strong> Die Person, der der Server gehört und die über die volle Verfügungsgewalt, Eigentumsrechte und das Hausrecht verfügt.</li>
     <li><strong>Moderations-Team:</strong> Vom Owner autorisierte Personen, die den ordnungsgemäßen Ablauf überwachen und Sanktionen im Namen des Owners durchsetzen.</li>
@@ -84,20 +128,34 @@ a:hover { color: var(--accent); }
     <li><strong>Inhalte:</strong> Alle Texte, Nachrichten, Bilder, Dateien und sonstige Daten, die auf dem Server geteilt werden.</li>
   </ul>
 
-  <h2>3. Pflichten der Mitglieder</h2>
+  <h2>4. Pflichten der Mitglieder</h2>
   <ul>
-    <li><strong><a href="https://sicherheitiminternet.github.io/nerdtopia-tos/agb.html" target="_blank">Einhalten der Nerdtopia-AGB.</a></strong></li>
-    <li><strong><a href="https://discord.com/terms" target="_blank">Einhalten der Discord ToS.</a></strong></li>
-    <li>Respektvoller Umgang miteinander</li>
-    <li><strong>Den Anweisungen des Owners sowie des Moderations-Teams ist unmittelbar Folge zu leisten.</strong></li>
-    <li>Keine Belästigung, Diskriminierung oder Mobbing</li>
-    <li>Keine NSFW-Inhalte posten.</li>
-    <li>Keine Illegalen-Inhalte posten.</li>
-    <li>Keine privaten Informationen ohne Zustimmung teilen (Doxing verboten)</li>
-    <li>Keine Störung des Serverbetriebs (Spam, Flood, Missbrauch von Bots etc.)</li>
+    <li>
+      <strong>Einhaltung des Regelwerks:</strong> Jedes Mitglied ist verpflichtet, sämtliche Bestandteile des Regelwerks (AGB, Datenschutzerklärung, Rollenrichtlinien, Serverregeln sowie Kategorie- und Kanalregeln) vollumfänglich zu beachten.
+    </li>
+    <li>
+      <strong>Externes Regelwerk:</strong> Die 
+      <strong><a href="https://discord.com/terms" target="_blank">Discord Terms of Service (ToS)</a></strong> sowie die 
+      <strong><a href="https://discord.com/guidelines" target="_blank">Community Guidelines</a></strong> sind zwingend einzuhalten.
+    </li>
+    <li>
+      <strong>Weisungsgebundenheit:</strong> Den Anweisungen des Owners sowie des Moderations-Teams ist <strong>unmittelbar und ohne Diskussion</strong> Folge zu leisten.
+    </li>
+    <li>
+      <strong>Umgangston:</strong> Ein respektvoller Umgang ist Pflicht. Belästigung, Diskriminierung, Mobbing oder Hate-Speech führen zum sofortigen Ausschluss.
+    </li>
+    <li>
+      <strong>Inhaltsbeschränkungen:</strong> Das Posten von NSFW-Inhalten (jugendgefährdend), illegalen Inhalten oder Links zu schädlicher Software ist streng untersagt.
+    </li>
+    <li>
+      <strong>Datenschutz & Privatsphäre:</strong> Das Teilen privater Informationen Dritter (Doxing) sowie das Veröffentlichen von Server-Inhalten außerhalb von Nerdtopia ist verboten.
+    </li>
+    <li>
+      <strong>Störungsverbot:</strong> Jede Form der Beeinträchtigung des Serverbetriebs (Spam, Flood, Missbrauch von Bots oder das bewusste Ausnutzen von technischen Lücken) ist untersagt.
+    </li>
   </ul>
 
-  <h2>4. Rolle des Owners</h2>
+  <h2>5. Rolle des Owners</h2>
   <ul>
     <li>Der Owner ist verantwortlich für den regelkonformen Betrieb des Servers nach den Discord ToS.</li>
     <li>Der Owner hat in allen Angelegenheiten das letzte Wort, einschließlich Regeländerungen und Moderation.</li>
@@ -106,7 +164,7 @@ a:hover { color: var(--accent); }
     <li>Der Owner kann außerdem Nachrichten jederzeit löschen auch ohne Grund oder Vorwarnung.</li>
   </ul>
  
-  <h2>5. Hierarchie und Moderations-Befugnisse</h2>
+  <h2>6. Hierarchie und Moderations-Befugnisse</h2>
   <p>Der Owner übt die uneingeschränkte Kontrolle über die gesamte Server-Moderation aus. 
      Mitglieder mit der Rolle <strong>@Team</strong> sind weisungsgebundene Erfüllungsgehilfen des Owners 
      und handeln ausschließlich nach dessen strikten Vorgaben. 
@@ -116,9 +174,8 @@ a:hover { color: var(--accent); }
     und ohne Angabe von Gründen zu entziehen, zu bearbeiten oder die damit verbundenen Berechtigungen zu ändern. 
     Ein Anspruch auf Beibehalt einer Rolle oder auf Mitbestimmung innerhalb der Server-Struktur besteht zu keinem Zeitpunkt.
   </p>
-  
 
-  <h2>6. Datenschutz</h2>
+  <h2>7. Datenschutz</h2>
   <p>Das Veröffentlichen privater Informationen anderer Personen (Doxing) ist strengstens verboten. Dazu gehören unter anderem:</p>
   <ul>
     <li>Echte Namen</li>
@@ -141,36 +198,50 @@ a:hover { color: var(--accent); }
   <p>Personenbezogene Daten werden nur zur Verwaltung und Moderation des Servers verwendet.</p>
   <p>Details zum Datenschutz von diesem Server sind in der <strong><a href="datenschutz.html">Datenschutzerklärung</a></strong> enthalten.</p>
 
-  <h2>7. Urheberrecht</h2>
+  <h2>8. Urheberrecht</h2>
   <p>Alle Inhalte auf dem Server (Bilder, Texte, Musik, Videos etc.) unterliegen dem Urheberrecht. Es dürfen keine urheberrechtlich geschützten Inhalte ohne ausdrückliche Erlaubnis des Rechteinhabers gepostet oder verbreitet werden.</p>
 
- <h2>8. Diskussionsverbot über das Regelwerk</h2>
- <p>
-  Die Nerdtopia-AGB, die Datenschutzbestimmungen sowie die Server-Regeln sind final und stehen <strong>nicht zur Disposition oder Diskussion</strong>. 
- </p>
- <p>
-   Jegliche öffentliche Debatte über die Sinnhaftigkeit, Auslegung oder Anwendung des Regelwerks innerhalb der Server-Kanäle ist untersagt. 
-   Dieses Verbot erstreckt sich ausdrücklich auch auf private Nachrichten (DMs) an den Owner oder das Moderations-Team. 
- </p>
- <p>
-   Zuwiderhandlungen, insbesondere wiederholtes "Regel-Anwaltschaft" (Rules-Lawyering) oder das Infragestellen der Owner-Autorität bezüglich des Regelwerks, werden als Störung des Serverfriedens gewertet und unmittelbar sanktioniert.
- </p>
+ <h2>9. Diskussionsverbot über das Regelwerk</h2>
+  <p>
+    Sämtliche Bestandteile des Nerdtopia-Regelwerks – bestehend aus den <strong>AGB</strong>, der <strong>Datenschutzerklärung</strong>, den <strong>Rollenrichtlinien</strong>, den <strong>allgemeinen Serverregeln</strong> sowie allen <strong>Kategorie- und Kanalregeln</strong> – sind final und stehen <strong>nicht zur Disposition oder Diskussion</strong>. 
+  </p>
+  <p>
+    Jegliche öffentliche Debatte über die Sinnhaftigkeit, Auslegung oder Anwendung dieser Bestimmungen innerhalb der Server-Kanäle ist untersagt. 
+    Dieses Verbot erstreckt sich ausdrücklich auch auf private Nachrichten (DMs) an den Owner oder das Moderations-Team. 
+  </p>
+  <p>
+    Zuwiderhandlungen, insbesondere wiederholtes "Regel-Anwaltschaft" (Rules-Lawyering), das bewusste Ausnutzen von Formulierungen gegen den erkennbaren Zweck der Regel oder das Infragestellen der Owner-Autorität bezüglich des Regelwerks, werden als Störung des Serverfriedens gewertet und unmittelbar sanktioniert.
+  </p>
+  </p>
 
-  <h2>9. Änderungen der AGB</h2>
+  <h2>10. Änderungen der AGB</h2>
   <p>Der Owner kann diese AGB jederzeit ändern. Die fortgesetzte Nutzung des Servers nach Änderungen gilt als Zustimmung zu den neuen AGB.</p>
 	
-  <h2>10. Zustimmung und Anerkennung</h2>
- <p>
-   Mit dem Betreten und der Nutzung des Nerdtopia Discord-Servers bestätigt jedes Mitglied ausdrücklich, dass es die folgenden Bestimmungen vollständig gelesen, verstanden und akzeptiert hat:
- </p>
- <ul>
-   <li><strong><a href="datenschutz.html">Diese Allgemeinen Geschäftsbedingungen (AGB)</a></strong></li>
-   <li><strong><a href="datenschutz.html">Die Datenschutzerklärung des Servers</a></strong></li>
-   <li>Das im Discord-Kanal veröffentlichte <strong>Regelwerk</strong></li>
- </ul>
- <p>
-   Die Zustimmung erfolgt automatisch durch die Nutzung des Servers. Wer mit diesen Bestimmungen oder Teilen davon nicht einverstanden ist, ist verpflichtet, den Server unverzüglich zu verlassen.
- </p>
+  <h2>11. Zustimmung und Anerkennung</h2>
+  <p>
+    Mit dem Betreten, dem Verbleib sowie der aktiven Nutzung des Nerdtopia Discord-Servers bestätigt jedes Mitglied ausdrücklich, dass es die folgenden Bestimmungen vollständig gelesen, verstanden und als verbindlich akzeptiert hat:
+  </p>
+  <ul>
+    <li><strong><a href="agb.html">Diese Allgemeinen Geschäftsbedingungen (AGB)</a></strong></li>
+    <li><strong><a href="datenschutz.html">Die Datenschutzerklärung des Servers</a></strong></li>
+    <li>
+      <strong><a href="https://discord.com/channels/1410902113965445223/1437895350093353060">Die Rollenrichtlinien (Selfroles) im entsprechenden Kanal</a></strong>
+    </li>
+    <li>
+      <strong>Die allgemeinen Serverregeln:</strong> 
+    (<strong><a href="https://discord.com/channels/1410902113965445223/1440417957518905415" target="_blank">für bestehende Mitglieder</strong></a> / 
+     <strong><a href="https://discord.com/channels/1410902113965445223/1474477034322530456" target="_blank">für neue Mitglieder</strong></a>)
+    </li>
+    <li>
+      Die spezifischen <strong>Kategorieregeln</strong> (jeweils im ersten Kanal einer Kategorie)
+    </li>
+    <li>
+      Die spezifischen <strong>Kanalregeln</strong> (in den jeweiligen Kanalbeschreibungen)
+    </li>
+  </ul>
+  <p>
+    Die Zustimmung erfolgt automatisch durch die Nutzung des Servers oder das Auswählen von Rollen. Wer mit diesen Bestimmungen, den Änderungen daran oder einzelnen Teilen davon nicht einverstanden ist, ist verpflichtet, den Server unverzüglich zu verlassen. Eine weitere Nutzung ohne Anerkennung dieser Bedingungen ist untersagt.
+  </p>
 
 </main>
 
